@@ -53,7 +53,7 @@ for i in range(len(Dialogue)):
 
 for key, value in character_dialog.items():
     random.shuffle(value, random.random)
-    value = value[:6664]
+    # value = value[:6664]
     for i in range(len(value)):
         dataY.append(key)
     print(value[0])
